@@ -16,11 +16,11 @@ depends=()
 makedepends=()
 
 build() {
-  cd "${srcdir}/${_realname}-${pkgver}"
+  cd "${srcdir}"
   exit
 }
 
 package() {
-  cd "${srcdir}/${_realname}-${pkgver}"
+  cd "${srcdir}"
   make DESTDIR="${pkgdir}/" install
 }
