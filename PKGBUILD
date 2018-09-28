@@ -8,8 +8,8 @@ pkgdesc="A fast, scalable, multi-language and extensible build system"
 
 license=('Apache License 2.0')
 url="https://bazel.build/"
-source=(https://github.com/bazelbuild/bazel/archive/${pkgver}.tar.gz)
-sha256sums=('810AB0EF8F9976AD3CCC881F2B7EBD82736B8BDB8D5257B22768704C2F407EBC')
+source=(https://github.com/bazelbuild/bazel/releases/download/${pkgver}/${_realname}-${pkgver}-dist.zip)
+sha256sums=('b6e87acfa0a405bb8b3417c58477b66d5bc27dc0d31ba6fa12bc255b9278d33b')
 
 arch=('any')
 depends=()
